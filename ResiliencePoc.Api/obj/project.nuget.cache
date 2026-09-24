@@ -1,0 +1,44 @@
+{
+  "version": 2,
+  "dgSpecHash": "fOBub7oPX2s=",
+  "success": true,
+  "projectFilePath": "/Users/baranokcuoglu/Desktop/distributed-resilience/ResiliencePoc.Api/ResiliencePoc.Api.csproj",
+  "expectedPackageFiles": [
+    "/Users/baranokcuoglu/.nuget/packages/confluent.kafka/2.15.1/confluent.kafka.2.15.1.nupkg.sha512",
+    "/Users/baranokcuoglu/.nuget/packages/librdkafka.redist/2.15.1/librdkafka.redist.2.15.1.nupkg.sha512",
+    "/Users/baranokcuoglu/.nuget/packages/microsoft.aspnetcore.openapi/10.0.10/microsoft.aspnetcore.openapi.10.0.10.nupkg.sha512",
+    "/Users/baranokcuoglu/.nuget/packages/microsoft.aspnetcore.signalr.common/10.0.12/microsoft.aspnetcore.signalr.common.10.0.12.nupkg.sha512",
+    "/Users/baranokcuoglu/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512",
+    "/Users/baranokcuoglu/.nuget/packages/polly/8.8.0/polly.8.8.0.nupkg.sha512",
+    "/Users/baranokcuoglu/.nuget/packages/polly.core/8.8.0/polly.core.8.8.0.nupkg.sha512",
+    "/Users/baranokcuoglu/.nuget/packages/respite/3.3.1/respite.3.3.1.nupkg.sha512",
+    "/Users/baranokcuoglu/.nuget/packages/stackexchange.redis/3.3.1/stackexchange.redis.3.3.1.nupkg.sha512",
+    "/Users/baranokcuoglu/.nuget/packages/system.io.hashing/10.0.12/system.io.hashing.10.0.12.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.AspNetCore.SignalR.Common ayıklanmayacak. Bu paketi bağımlılıklarınızdan kaldırmayı düşünün, çünkü muhtemelen gereksizdir.",
+      "projectPath": "/Users/baranokcuoglu/Desktop/distributed-resilience/ResiliencePoc.Api/ResiliencePoc.Api.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/baranokcuoglu/Desktop/distributed-resilience/ResiliencePoc.Api/ResiliencePoc.Api.csproj",
+      "libraryId": "Microsoft.AspNetCore.SignalR.Common",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "'Microsoft.OpenApi' 2.0.0 paketinde önem derecesi yüksek olan bilinen bir https://github.com/advisories/GHSA-v5pm-xwqc-g5wc güvenlik açığı var",
+      "projectPath": "/Users/baranokcuoglu/Desktop/distributed-resilience/ResiliencePoc.Api/ResiliencePoc.Api.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/baranokcuoglu/Desktop/distributed-resilience/ResiliencePoc.Api/ResiliencePoc.Api.csproj",
+      "libraryId": "Microsoft.OpenApi",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
