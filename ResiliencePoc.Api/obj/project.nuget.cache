@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fOBub7oPX2s=",
+  "dgSpecHash": "/FuawgIqBZw=",
   "success": true,
   "projectFilePath": "/Users/baranokcuoglu/Desktop/distributed-resilience/ResiliencePoc.Api/ResiliencePoc.Api.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,13 @@
     "/Users/baranokcuoglu/.nuget/packages/librdkafka.redist/2.15.1/librdkafka.redist.2.15.1.nupkg.sha512",
     "/Users/baranokcuoglu/.nuget/packages/microsoft.aspnetcore.openapi/10.0.10/microsoft.aspnetcore.openapi.10.0.10.nupkg.sha512",
     "/Users/baranokcuoglu/.nuget/packages/microsoft.aspnetcore.signalr.common/10.0.12/microsoft.aspnetcore.signalr.common.10.0.12.nupkg.sha512",
+    "/Users/baranokcuoglu/.nuget/packages/microsoft.entityframeworkcore/10.0.4/microsoft.entityframeworkcore.10.0.4.nupkg.sha512",
+    "/Users/baranokcuoglu/.nuget/packages/microsoft.entityframeworkcore.abstractions/10.0.4/microsoft.entityframeworkcore.abstractions.10.0.4.nupkg.sha512",
+    "/Users/baranokcuoglu/.nuget/packages/microsoft.entityframeworkcore.analyzers/10.0.4/microsoft.entityframeworkcore.analyzers.10.0.4.nupkg.sha512",
+    "/Users/baranokcuoglu/.nuget/packages/microsoft.entityframeworkcore.relational/10.0.4/microsoft.entityframeworkcore.relational.10.0.4.nupkg.sha512",
     "/Users/baranokcuoglu/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512",
+    "/Users/baranokcuoglu/.nuget/packages/npgsql/10.0.3/npgsql.10.0.3.nupkg.sha512",
+    "/Users/baranokcuoglu/.nuget/packages/npgsql.entityframeworkcore.postgresql/10.0.3/npgsql.entityframeworkcore.postgresql.10.0.3.nupkg.sha512",
     "/Users/baranokcuoglu/.nuget/packages/polly/8.8.0/polly.8.8.0.nupkg.sha512",
     "/Users/baranokcuoglu/.nuget/packages/polly.core/8.8.0/polly.core.8.8.0.nupkg.sha512",
     "/Users/baranokcuoglu/.nuget/packages/respite/3.3.1/respite.3.3.1.nupkg.sha512",

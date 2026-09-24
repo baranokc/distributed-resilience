@@ -1,9 +1,7 @@
-version: '3.8'
-
 services:
   kafka:
     image: confluentinc/cp-kafka:7.7.0
-    container_name: poc-kafka
+    container_name: kafka
     ports:
       - "9092:9092"
     environment:
@@ -18,9 +16,20 @@ services:
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
       KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
       KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: 'true'
 
   redis:
     image: redis:alpine
-    container_name: poc-redis
+    container_name: redis
     ports:
       - "6379:6379"
+
+  postgres:
+    image: postgres:16-alpine
+    container_name: postgres-dr
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password123
+      POSTGRES_DB: resilience_db
